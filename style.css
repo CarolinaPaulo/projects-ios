@@ -1,0 +1,100 @@
+body{
+    
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", monospace;
+    /* font-size: 16px; */
+    text-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(181 232 83 / 10%), 0 0 10px rgb(181 232 83 / 10%);
+    background: linear-gradient(to bottom, #166c17 0%, #090b0b 100%);
+    
+  }
+  
+  section {
+    display: block;
+    background-color:  #151515;
+    padding: 15px;
+    max-width: 500px;
+    border: 1px solid #636363;
+    margin: 50px auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+    box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59)
+    
+  }
+  
+  section h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  header {
+   background-image: url('https://img.ibxk.com.br/2019/03/29/29210004376124.jpg?w=1120&h=420&mode=crop&scale=both');
+   background-size: cover;
+   height: 80px;
+   border-radius: 5px;
+  }
+  
+  
+  div{
+    
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #166c17;
+    background-color: #151515;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  header img{
+    width: 150px;
+    height:150px;
+    border-radius: 100%;
+    display: block;
+    margin: 0px auto;
+    transform: translateY(-50%);
+    border: 8px solid #151515;
+  }
+
+  ol li a {
+    text-decoration: none;
+    transition: 0.1s ease;
+    color: white;
+    padding: 8px;
+    background:  #166c17;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  color: white;
+
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  line-height: 3rem;
+}
+
+a:hover{
+	font-size: 18px;
+}
+
+footer nav .redes-sociais{
+  border-top: 1px solid white;
+  padding: 50px 0 0;
+  text-align: center;
+  color: white;
+
+}
+footer nav .redes-sociais li{
+  text-align: center;
+  display: inline-block;
+}
+footer nav .redes-sociais li a img{
+  width: 40px;
+}
+
+footer nav .redes-sociais li a:hover img{
+  transform: scale(1.2) translateY(-10px);
+}

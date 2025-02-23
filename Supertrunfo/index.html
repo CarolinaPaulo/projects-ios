@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>
+        Imersão Dev - Aula 07 e 08
+      
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">Super Trunfo</h1>
+     
+
+        <button onclick="sortearCarta()" id="btnSortear">Clique Para Escolher a Sua Carta</button>
+              
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div id="placar"></div>
+            <div id="quantidade-cartas"></div>
+            <div class="wrapper" id="wrapper">
+
+                <div>
+                    <div id="carta-jogador"></div>
+                </div>
+                    <div id="resultado"></div>
+                <div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+              
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+          
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima rodada</button>
+            
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+
+</html>
